@@ -1,0 +1,12 @@
+{
+  "name": "neowise-candidate-triage",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/triage.test.mjs",
+    "test:ui": "node --test checks/browser.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.65.1"
+  }
+}
